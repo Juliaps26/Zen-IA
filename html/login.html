@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Logo na pagina -->
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- Scripts -->
+    <script src="../js/fundo.js" type="module" defer></script>
+    <title>Tela Login</title>
+</head>
+
+<body>
+
+
+
+    <main class="mt-40">
+
+        <section class="flex items-center justify-center">
+
+            <div id="app" class=" absolute inset-0 -z-20 flex items-center justify-center h-screen ">
+                <div id="background" class="absolute inset-0 w-full overflow-hidden opacity-45">
+
+                </div>
+            </div>
+
+
+            <!-- Caixa para fazer login -->
+            <div class=" rounded-2xl shadow-lg max-w-3x2 p-10 items-center " id="area">
+
+                <div class="wrapper">
+                    <svg>
+                        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                            Zen-AI
+                        </text>
+                    </svg>
+                </div>
+
+
+
+                <!-- area -->
+                <div class="md:w-3/10 px-60 md:px-[2vh] md:h-[36vh]">
+
+                    <!--  Para digitar o email e senha para login -->
+                    <form action="" class="flex flex-col gap-6 mt-[4vh]">
+                        <input class="p-2 mt-4 rounded-xl border" type="email" name="email" placeholder="Email">
+                        <input class="p-2 rounded-xl border" type="Senha" name="Senha" placeholder="Senha">
+
+
+                        <a href="./home.html">
+                            <button class="bg-black mt-20 rounded-xl text-white py-2 hover:scale-105 duration-300">
+                                <p>Entrar</p>
+                            </button>
+                        </a>
+
+                    </form>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
