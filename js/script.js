@@ -3,7 +3,7 @@
 const button = document.getElementById('send-question')
 
 const consultarGemini = (question) => {
-    const keyGoogle = 'AIzaSyBZaybh57iVi23jcLvzuIrabNG4f3td60A'
+   //const keyGoogle = 'AIzaSyBZaybh57iVi23jcLvzuIrabNG4f3td60A'
     const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:genarateContent?key=' + keyGoogle
 
     // Estrutura da propria documentação
